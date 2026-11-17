@@ -35,6 +35,7 @@ public class Movement : MonoBehaviour
             retning += new Vector2(1, 0);
         }
 
+
         retning = retning.normalized; //Den laver basically en enhedscirkel
         retning *= Speed;
 
